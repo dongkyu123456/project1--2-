@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta
+          name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+  />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>로그인 페이지</title>
+</head>
+<body>
+<!-- login.css와 반드시 같은 폴더에 넣어줄 것 -->
+<link rel="stylesheet" href="/src/main/resources/static/login.css" />
+<div class="login-wrapper">
+  <h2>Login</h2>
+  <form method="post" action="http://localhost:8081/" id="login-form">
+    <input type="text" name="userName" placeholder="ID" />
+    <input type="password" name="userPassword" placeholder="Password" />
+    <label for="remember-check">
+      <input type="checkbox" id="remember-check" /> 아이디 저장하기
+    </label>
+    <input type="submit" value="로그인" />
+    <input type="submit" value="비밀번호 찾기" />
+    <input type="submit" value="회원가입" />
+  </form>
+</div>
+</body>
+</html>

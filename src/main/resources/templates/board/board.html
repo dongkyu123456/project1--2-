@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="ko" class="darkmode">
+
+<head>
+    <meta charset="UTF-8">
+    <title>글 제목 - 음식 갤러리</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="imagetoolbar" content="no">
+    <meta name="content-language" content="kr">
+
+    <meta name="referrer" content="unsafe-url">
+    <link rel="apple-touch-icon-precomposed" href="//nstatic.dcinside.com/dc/m/img/dcinside_icon.png">
+    <link rel="stylesheet" type="text/css" href="https://nstatic.dcinside.com/dc/w/css/reset.css?v=3" />
+    <link rel="stylesheet" type="text/css" href="https://nstatic.dcinside.com/dc/w/css/common.css?v=220722" />
+    <link rel="stylesheet" type="text/css" href="https://nstatic.dcinside.com/dc/w/css/contents.css?v=221013_2" />
+    <link rel="stylesheet" type="text/css" href="https://nstatic.dcinside.com/dc/w/css/minor.css?v=220722" />
+    <link rel="stylesheet" type="text/css" href="https://nstatic.dcinside.com/dc/w/css/popup.css?v=221012" />
+    <link rel="stylesheet" type="text/css" href="https://nstatic.dcinside.com/dc/w/css/research.css?v=220722" />
+    <link rel="stylesheet" type="text/css" href="https://nstatic.dcinside.com/dc/w/css/og.css?v=221107" />
+    <link rel="manifest" href="/manifest.json">
+
+    <script type="text/javascript">
+        document.domain = "dcinside.com";
+        var k_cnt = 0;
+        var _GALLERY_TYPE_ = "G";
+        var conn_n = 0;
+    </script>
+
+    <script src="//dccon.dcinside.com/_js/dc_common2.js?1" type="text/javascript" charset="utf-8"></script>
+
+</head>
+
+<body>
+    </header>
+    <!-- GNB -->
+    <div class="gnb_bar">
+        <nav class="gnb clear">
+            <h2 class="blind">GNB</h2>
+            <ul class="gnb_list clear">
+                <li>
+                    <a href="도메인" class="hover_gnb link_gnb" url_code="gallery"></a>
+                    <span class="gnb_area"
+                        style="display:block;width:77px;height:12px;position:absolute;left:0;bottom:0;"></span>
+                </li>
+                <li><a href="게임 도메인" class="link_gnb" url_code="game">게임 갤러리</a></li>
+                <li><a href="음식 도메인" class="link_gnb" url_code="food">음식 갤러리</a></li>
+                <li><a href="음악 도메인" class="link_gnb" url_code="music">음악 갤러리</a></li>
+                <li><a href="영화 도메인" class="link_gnb" url_code="movie">영화 갤러리</a></li>
+                <li><a href="오늘의 게시글 도메인" class="link_gnb" url_code="today">오늘의 게시글 갤러리</a></li>
+            </ul>
+        </nav>
+    </div>
+    </div>
+    </nav>
+    </div>
+    <!-- //GNB -->
+    <div class="wrap_inner ">
+
+        <main id="container" class="clear gallery_view">
+            <section>
+
+                <!-- 갤리명 타이틀바 ~ 이용안내 -->
+
+                <header>
+                    <div class="page_head clear">
+                        <div class="fl clear">
+
+
+                            <h2><a href="/board/lists?id=food">음식 갤러리</a></h2>
+                        </div>
+                        <div class="pop_wrap type3" id="headTail_lay"
+                            style="left:50%;top:44px;margin-left:-222px;display:none">
+                            <!-- 갤러리별 설정 - 전체 -->
+
+                    </div>
+                </header>
+                <article>
+                    <div class="issue_wrap">
+                        <div class="issuebox gallery_box">
+                            <!-- //연관갤러리 -->
+
+                            <!-- 상단 이슈 박스 -->
+                            <!-- list and view recom -->
+                            <!-- 용도 불명확
+                                
+                                <div id="gall_top_recom" class="concept_wrap">
+                                <h3 class="blind">개념글 리스트</h3>
+                                <div class="pageing_box">
+                                    <div class="page_num">
+                                        <strong class="now_num">1</strong>/<span class="total_num">3</span>
+                                    </div>
+                                    <button type="button" class="btn_blueprev" data-page="-1"><span
+                                            class="blind">이전</span><em class="sp_img icon_blueprev"></em></button>
+                                    <button type="button" class="btn_bluenext on" data-page="1"><span
+                                            class="blind">다음</span><em class="sp_img icon_bluenext"></em></button>
+                                </div>
+
+                                <ul class="concept_txtlist">
+
+                                    <li style="display:none;">
+                                        <a href="/board/view/?id=food&no=2912926">자취요리</a>
+                                        <span class="writer">ㅇㅇ</span>
+                                    </li>
+                                    <li style="display:none;">
+                                        <a href="/board/view/?id=food&no=2913713">국밥 먹자</a>
+                                        <span class="writer">기범박</span>
+                                    </li>
+                                    <li style="display:none;">
+                                        <a href="/board/view/?id=food&no=2913290">마음대로 안되는
+                                            토요일 먹부림</a>
+                                        <span class="writer">국방타마마</span>
+                                    </li>
+                                    <li style="display:none;">
+                                        <a href="/board/view/?id=food&no=2913429">저녁 등촌 샤브
+                                            칼국수</a>
+                                        <span class="writer">쉐도우워리어</span>
+                                    </li>
+                                    <li style="display:none;">
+                                        <a href="/board/view/?id=food&no=2912744">아침~,~ 꾸덕한
+                                            요거트</a>
+                                        <span class="writer">꽃나나</span>
+                                    </li>
+                                    <li style="display:none;">
+                                        <a href="/board/view/?id=food&no=2913687">씨발년들아
+                                            내해산물은 왜무시해</a>
+                                        <span class="writer">ㅇㅇ</span>
+                                    </li>
+                                    <li style="display:none;">
+                                        <a href="/board/view/?id=food&no=2913629">좀 자세한 연돈
+                                            웨이팅 + 등심까스 후기.jpg</a>
+                                        <span class="writer">dd</span>
+                                    </li>
+                                    <li style="display:none;">
+                                        <a href="/board/view/?id=food&no=2912767">어제 먹은
+                                            삼겹살과 돼지갈비 구경하고 가소</a>
+                                        <span class="writer">먹보의하루</span>
+                                    </li>
+                                    <li style="display:none;">
+                                        <a href="/board/view/?id=food&no=2913017">가족여행
+                                            뿝뿝뿝뿝뿝</a>
+                                        <span class="writer">수박이</span>
+                                    </li>
+                                    <li style="display:none;">
+                                        <a href="/board/view/?id=food&no=2912619">제주도 말고기
+                                            정식.jpg</a>
+                                        <span class="writer">dd</span>
+                                    </li>
+                                </ul>
+
+                                <div class="concept_img" style="display:none;">
+                                    <a href="/board/view/?id=food&no=2912805"
+                                        class="concept_imgbox">
+                                        <img src="https://dccdn11.dcinside.co.kr/viewimage.php?id=food&no=24b0d769e1d32ca73fea82fa11d0283100024f51dc9ac1e2672250b3db70d8f2b602acba17a53cd3e897bb44adbdec47374c84f377e2ac79344ce37b3cb27e7428c045439af34e8a599497b3e56a4e9e0f72e49f9644e0bded9ecf26c4b5f8cc9a8851"
+                                            alt="이미지">
+                                    </a>
+                                    <div class="concept_txtbox">
+                                        <strong><a href="/board/view/?id=food&no=2912805">두끼
+                                                와뗩</a></strong>
+                                        <a href="/board/view/?id=food&no=2912805">근데 입맛이
+                                            읍다밖에 날씨 짱조음- dc official App</a>
+                                        <span class="writer_info">
+                                            <b>작성자</b> : 어딘가이상한<a href="#" class="go_gallog"><span
+                                                    class="blind">고정닉</span><em class="sp_img icon_gallog_nik"></em></a>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="concept_img" style="display:none;">
+                                    <a href="/board/view/?id=food&no=2913615"
+                                        class="concept_imgbox">
+                                        <img src="https://dccdn11.dcinside.co.kr/viewimage.php?id=food&no=24b0d769e1d32ca73fea82fa11d0283100024f51dc9ac1e2672250b3db70d8f2b602acba17a23ed8e191bf44adbfec4553da6254ea70419ae6f2893432272b33e07f722e68be2ebb4e577d45f7de689e776b131aa5ddc56440771b1db3026deb8fcf2f"
+                                            alt="이미지">
+                                    </a>
+                                    <div class="concept_txtbox">
+                                        <strong><a href="/board/view/?id=food&no=2913615">ㅎㅐ산물
+                                                보구가~~~~~~~~~</a></strong>
+                                        <a href="/board/view/?id=food&no=2913615">아쥬조아~~~~~~~앙^,^~~~~~~-
+                                            dc official App</a>
+                                        <span class="writer_info">
+                                            <b>작성자</b> : 꽃나나<a href="#" class="go_gallog"><span
+                                                    class="blind">고정닉</span><em class="sp_img icon_gallog_nik"></em></a>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="concept_img" style="display:none;">
+                                    <a href="/board/view/?id=food&no=2913280"
+                                        class="concept_imgbox">
+                                        <img src="https://dccdn11.dcinside.co.kr/viewimage.php?id=food&no=24b0d769e1d32ca73fea82fa11d0283100024f51dc9ac1e2672250b3db70d8f2b602acba15ab3fd0e296b747abbbec45127b72e1a4cc1ed32ad433f4840d5869927ea716824fce641773a4ffc1dbef07253f986ea15f2632e0f45c9fe854eca7f704ce"
+                                            alt="이미지">
+                                    </a>
+                                    <div class="concept_txtbox">
+                                        <strong><a href="/board/view/?id=food&no=2913280">오늘
+                                                구운 비프립 파스트라미</a></strong>
+                                        <a href="/board/view/?id=food&no=2913280">갈비살 살살
+                                            녹는다- dc official App</a>
+                                        <span class="writer_info">
+                                            <b>작성자</b> : Angryl<a href="#" class="go_gallog"><span
+                                                    class="blind">고정닉</span><em class="sp_img icon_gallog_nik"></em></a>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div> -->
+                            <script>
+                                topbox_recomAjax();
+                            </script>
+                            <div class="banner_box">
+                            </div>
+
+                        </div>
+                    </div>
+                </article>
+                <!-- 본문 -->
+                <article>
+                    <form id="_view_form_" name="frm">
+                        <input type="hidden" id="list_url" name="list_url"
+                            value="/board/lists?id=food">
+                        <input type="hidden" id="view_url" name="view_url"
+                            value="/board?id=food&no=2913753page=">
+                        <input type="hidden" id="current_type" name="current_type" value="view">
+                        <input type="hidden" id="current_params" name="current_params" value="&page=1">
+                        <input type="hidden" id="exception_mode" name="exception_mode" value="all">
+                        <input type="hidden" id="list_num" name="list_num" value="50">
+                        <input type="hidden" id="page" name="page" value="1">
+                        <input type="hidden" id="sort_type" name="sort_type" value="">
+                        <input type="hidden" id="search_head" name="search_head" value="">
+                        <input type="hidden" id="id" name="gallery_id" value="food">
+                        <input type="hidden" id="gallery_id" name="gallery_id" value="food">
+                        <input type="hidden" id="no" name="gallery_no" value="2913753">
+                        <input type="hidden" id="s_type" name="s_type" value="">
+                        <input type="hidden" id="s_keyword" name="s_keyword" value="">
+                        <input type="hidden" id="e_s_n_o" name="e_s_n_o" value="3eabc219ebdd65f0">
+                        <input type="hidden" id="kcaptcha_use" name="kcaptcha_use" value="N">
+                        <input type="hidden" id="kakao_rel_use" value="N">
+                        <input type="hidden" id="kakao_rel_txt" value="">
+                        <input type="hidden" id="cmt_wr" name="cmt_wr" value="10" />
+                        <input type="hidden" id="comment_view" name="comment_view" value="">
+                        <input type="hidden" id="is_login" name="is_login" value="Y" />
+                        <!--<input type="hidden" id="_GALLTYPE_" name="_GALLTYPE_" value="G">-->
+                        <input type="hidden" id="nec" name="nec" value="" />
+                        <input type="hidden" id="adult_article" name="adult_article" value="" />
+                        <input type="hidden"
+                            name="ee889b191e203414498b62d6de2c707aa334411b4d9d15a922c8efc74f742cf994c2ce04c33777d2c6675646087b876e"
+                            value="b9d1c345576936154b8c299fdc613e6536c3d7fab6ff1e6d37b430e975da717398126ea66188538db6a78023ccafe06c" />
+                        <input type="hidden" name="v_cur_t" value="1678550834" />
+                    </form>
+                    <h2 class="blind">갤러리 본문 영역</h2>
+                    <div class="view_content_wrap">
+                        <header>
+                            <div class="gallview_head clear ub-content">
+                                <!-- 열린 글 -->
+                                <h3 class="title ub-word">
+                                    <span class="title_headtext"></span> <span class="title_subject">글 제목</span>
+                                </h3>
+                                <div class="gall_writer ub-writer" data-nick="닉네임" data-uid="" 
+
+                                    data-loc="view">
+                                        <!-- 닉네임과 작성일 -->
+                                        <div class="fl"> 
+                                        <span class='nickname' title='닉네임'><em>닉네임</em></span></span> 
+                                        <span class="gall_date" title="2023-03-12 01:03:26">2023.03.12 01:03:26</span>
+                                    </div>
+                                    <!-- 조회수와 추천 댓글수 -->
+                                    <div class="fr">
+                                        <span class="gall_count">조회 13</span>
+                                        <span class="gall_reply_num">추천 0</span>
+                                        <span class="gall_comment"><a href="#focus_cmt">댓글 1</a></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </header>
+
+                        <div class="gallview_contents">
+                            <div class="inner clear">
+                                <div class="writing_view_box">
+                                    <!-- 게시글 크기 최적화 같은 무언가-->
+                                    <div id="zzbang_div"><span id='zzbang_ad'><iframe
+                                                src="//adex.ednplus.com/xc/h/7Md9gKH5" width="300" height="250"
+                                                frameborder="0" scrolling="no" topmargin="0" leftmargin="0"
+                                                marginwidth="0" marginheight="0"
+                                                referrerpolicy="no-referrer-when-downgrade"></iframe></span></div>
+                                    <pre></pre>
+                                    <div id='taboola-above-article-thumbnails'></div><br>
+                                    <div class="write_div" style="overflow:hidden;width:900px;"
+                                        data-tracking="ebab9865142aa5ecc93e229b774a410c545b18d4cc11a3f8993a045a">
+
+                                        <p></p>
+                                        <div>
+                                            <div><span>글내용</span></div>
+                                        </div>
+                                        <p></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="btn_recommend_box recomuse_y morebox">
+                                <h3 class="blind">추천 비추천</h3>
+                                <div class="inner_box">
+                                    <div class="inner">
+                                        <div class="up_num_box">
+                                            <p class="up_num font_red" id="recommend_view_up_2913753">0</p>
+                                        </div>
+                                        <button type="button" class="btn_recom_up" data-no="2913753"><span
+                                                class="blind">개념 추천</span><em
+                                                class="sp_img icon_recom_up"></em></button>
+                                    </div>
+                                    <div class="inner">
+                                        <button type="button" class="btn_recom_down" data-no="2913753"><span
+                                                class="blind">개념 비추천</span><em
+                                                class="sp_img icon_recom_down"></em></button>
+                                        <div class="down_num_box">
+                                            <p class="down_num" id="recommend_view_down_2913753">0</p>
+                                        </div>
+                                    </div>
+                                </div><!-- 둥 -->
+                                <div class="recom_bottom_box clear">
+                                    <button type="button" class="btn_nhitgall" data-no="2913753"><em
+                                            class="sp_img icon_nhitgall"></em>오게추</button>
+                                </div>
+                            </div>
+                            <!-- //추천 비추천 -->
+                        </div>
+                    </div>
+
+                    <!-- 댓글 -->
+                    <div id="jquery_jplayer"></div>
+                    <div class="view_comment" id="focus_cmt">
+                        <h2 class="blind">댓글 영역</h2>
+                        <div id="comment_wrap_2913753" class="comment_wrap" data-article-lv="10" data-sort-type='I'>
+                            <div class="comment_count">
+                                <div class="fl num_box">
+                                    전체 댓글 <em class="font_red"><span id="comment_total_2913753">0</span></em>개
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 답글 입력 -->
+                        <input type="hidden" id="recommend" value="0" />
+
+                        <input type="hidden" name="gallery_no" id="gallery_no" value="596" />
+
+                        <input type="hidden" name="clickbutton" id="clickbutton" value="N" />
+
+                        <input type='hidden' name='check_6' id='check_6'
+                            value='a65628ad1616782da2635b53c391a8d95835ad4846cfe7daf454d18bb176458a96' />
+                        <input type='hidden' name='check_7' id='check_7' value='7d' />
+                        <input type='hidden' name='check_8' id='check_8' value='ae5837a50035' />
+                        <input type='hidden' name='check_9' id='check_9' value='7ce99e73b19c69f038f187ec47' />
+                        <input type='hidden' name='check_10' id='check_10'
+                            value='7fed8275a8826beb3fed96e5478b746e8bc4b1' />
+
+                        <input type="hidden" id="cur_t" name="cur_t" value="1678550834">
+                        <input type="hidden" id="user_ip" name="user_ip" value="112.0.0.0">
+                        <input type='hidden' name="service_code"
+                            value="21ac6d96ad152e8f15a05b7350a2475909d19bcedeba9d4face8115e9bc1f84217eb9a129317ef40390ed75e84c8e31a7c1cf5d3c2642d81074f3a17556d8ca2bfd165f5389b0714a2cf7deececad8cd7068dcc3bc16dee49bb55ee8c2fc3e223514b8e74bf2dc809836171a02523f4e00bc0851087613ad4a472c88c4def2d18fbc3bcdd5db60d562e32411f9c880ba17bd81129ebfbe1ae0e0b1626fb4541f6d7ae303e8047aca7e7f654b3a79a08bf59b6e7f761cb99ea6ef978e576f205a4a9c5edba885" />
+                        <input type="hidden" name="_GALLTYPE_" id="_GALLTYPE_" value="G" />
+                        <input type="hidden" name="member_division" id="member_division" value="Y" />
+                        <input type="hidden" name="cmt_max_length" id="cmt_max_length" value="400" />
+                        <form id="_cmt_del_form_" name="_cmt_del_form_">
+                            <input type='hidden'
+                                name="ee889b191e203414498b62d6de2c707aa334411b4d9d15a922c8efc74f742cf994c2ce04c33777d2c66756461d7987"
+                                value="b9d1c345576936154b8c299fdc613e6536c3d7fab6ff1e6d37b430e975da717398126ea66188538db6a78023d9ade0" />
+                        </form>
+                        <div class="cmt_write_box clear">
+                            <div class="fl">
+                                <div class="user_info_input id">
+                                    <label for="user_nick" class="">멍멍이</label>
+                                    <input type="hidden" name="name" id="name_2913753" value="멍멍이" />
+                                </div>
+                            </div>
+                            <div class="cmt_txt_cont">
+                                <div class="cmt_write">
+                                    <label for="cmt_textarea" class="cmt_textarea_label"
+                                        onclick="$('.cmt_textarea_label').hide();$(this).siblings('textarea').focus();">
+                                        타인의 권리를 침해하거나 명예를 훼손하는 댓글은 운영원칙 및 관련 법률에 제재를 받을 수 있습니다.<br>
+                                        Shift+Enter 키를 동시에 누르면 줄바꿈이 됩니다.
+                                    </label>
+                                    <textarea id="memo_2913753" onfocus="$('.cmt_textarea_label').hide();"
+                                        maxlength="400" onKeyup="javascript:reply_length_count(2913753);"></textarea>
+                                </div>
+                                <div class="cmt_cont_bottm clear">
+
+                                    <div class="fr">
+                                        <button type="button" class="btn_blue btn_svc small repley_add"
+                                            data-no="2913753">등록</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 답글쓰기 -->
+                        <script id="addReplyForm-tmpl" type="text/x-jquery-tmpl">
+<li id="reply_empty_${no}">
+	<div class="cmt_write_box small clear" id="cmt_write_box" data-no="${no}">
+        		<div class="fl">
+								<div class="user_info_input id">
+                <label for="user_nick_${no}" class="blind">멍멍이</label>
+                <input type="text" id="user_nick_${no}" value="멍멍이" readonly="readonly">
+            </div>
+			        </div>
+		<div class="cmt_txt_cont">
+			<div class="cmt_write">
+				<textarea id="memo_${no}" maxlength="400" onclick="reply_length_count(${no})"></textarea>
+            <div class="fr">
+                <!--<button class="btn_grey small comment_cancel" r_no="${no}" r-type="reply_empty_">취소</button>-->
+                                <button class="btn_blue btn_svc small repley_add" r_idx = "${no}">등록</button>
+                		    </div>
+        </div>
+    </div>
+</li>
+</script>
+                        <!-- //수정 -->
+                        <script id="commentModify-tmpl" type="text/x-jquery-tmpl">
+<li class="modify" id="modi_${re_no}" data-type="${cmt_type}" data-no="${re_no}">
+    <div id="cmt_write_box" class="cmt_write_box ${small_class} clear">
+	   <div class="fl">
+	       <div class="user_info_input">
+	           <label for="user_nick" class="blind">${name}</label>
+               <input type="text" id="user_nick" value="${name}" placeholder="${name}" readonly>
+	       </div>
+        </div>
+	    <div class="cmt_txt_cont">
+            <div class="cmt_write">
+                <textarea id="memo_${re_no}" maxlength="400" onclick="reply_length_count(${re_no})">${memo}</textarea>
+	        </div>
+	        <div class="cmt_cont_bottm clear">
+		        <div class="fr">
+                    <button type="button" class="btn_grey small comment_cancel" r_no="${re_no}" r-type="modi_">취소</button>
+		            <button type="button" class="btn_blue small comment_update" r_no="${re_no}">수정</button>
+		        </div>
+            </div>
+        </div>
+    </div>
+</li>
+</script>
+                       
+
+
+                    </div>
+
+                    <script id="reply-setting-tmpl" type="text/x-jquery-tmpl">
+<div id="reply_setting_lyr" class="pop_wrap type3" style="left:-1px;top:38px;display:">
+<div class="pop_content setting_reply">
+  <div class="pop_head"><h3>답글기본펼침</h3></div>
+  <div class="pop_info">
+	<p>답글을 기본 펼침으로 볼 수 있습니다.</p>
+  </div>
+  <div class="inner">
+	<div class="setting_option">
+	  <p>현재 갤러리</p>
+	  <div class="setting_onoff">
+		<button type="button" id="reply_set_gall_data" class="btn_reply_set_onoff sp_img ${cur_on_off}" data-id="${gall_id}" data-set="${cur_on_off}"><span class="blind">${cur_on_off}</span></button>
+	  </div>
+	</div>
+	<div class="setting_option">
+	  <p>전체 갤러리</p>
+	  <div class="setting_onoff">
+		<button type="button" id="reply_set_all_data" class="btn_reply_set_onoff sp_img ${all_on_off}" data-id="all" data-set="${all_on_off}"><span class="blind">${all_on_off}</span></button>
+	  </div>
+	</div>
+  </div>
+  <div class="btn_box">
+	<button type="button" class="btn_grey small btn_reply_setting_close">닫기</button>
+	<button type="button" class="btn_blue small btn_reply_setting_save">저장</button>
+  </div>
+</div>
+<button type="button" class="poply_bgblueclose btn_reply_setting_close"><span class="blind">알림 설정 레이어 닫기</span><em class="sp_img icon_bgblueclose"></em></button>
+</div>
+</script>
+                    <script type="text/javascript">
+                        var _r = _d('RMSFPM0HQ4w5PM0GR/uvdMyDdTuvQMUtQFSHPM0HR/uEdMntQg0EPMnHP+UK');
+                        $(document).data('t_vch2', '');
+                        $(document).data('t_vch2_chk', '');
+                        $(document).data('gallery_id', 'food');
+                        $(document).data('article_no', '2913753');
+                        $(document).data('comment_id', 'food');
+                        $(document).data('comment_no', '2913753');
+                        var keyword = getParameterByName('s_keyword');
+
+                        viewComments(1, 'VIEW_PAGE');
+                    </script>
+                    <!-- 개념글, 수정, 삭제, 글쓰기 버튼 영역-->
+                    <div class="view_bottom_btnbox clear">
+                        <div class="fl">
+                            <button type="button" class="btn_blue concept"
+                                onclick="goList('/board/lists/?id=food')">전체글</button>
+                            <button type="button" class="btn_white concept"
+                                onclick="goList('/board/lists/?id=food&exception_mode=recommend')">개념글</button>
+
+                        </div>
+                        <div class="fr">
+                            <button type="button" class="btn_grey modify"
+                                onclick="goWrite('링크 글 수정')">수정</button>
+                            <button type="button" class="btn_grey cancle"
+                                onclick="goDelete('링크 글 삭제')">삭제</button>
+                            <button type="button" id="btn_write" class="btn_blue write"
+                                onclick="goWrite('글 쓰기 게시판으로')">글쓰기</button>
+                        </div>
+                    </div> <!-- //개념글, 수정, 삭제, 글쓰기 버튼 영역-->
+                </article>
+                <!-- //본문 -->
+                <!-- 하단 갤러리 리스트 -->
+                <article>
+                    <h2 class="blind">하단 갤러리 리스트 영역</h2>
+                    <!-- bottom_listwrap -->
+                    <div id="bottom_listwrap" class="listwrap clear">
+                        <!-- left_content -->
+                        <section class="left_content">
+                            <h2 class="blind">왼쪽 컨텐츠 영역</h2>
+                            <article>
+                                <h2 class="blind">갤러리 리스트 영역</h2>
+                                <!-- 갤러리 리스트 -->
+                                <div class="gall_listwrap list">
+                                    <!-- 게시판형 갤러리 리스트-->
+                                    <table class="gall_list ">
+                                        <caption>갤러리 리스트</caption>
+                                        <colgroup>
+                                            <col style="width:7%">
+                                            <col>
+                                            <col style="width:18%">
+                                            <col style="width:6%">
+                                            <col style="width:6%">
+                                            <col style="width:6%">
+                                        </colgroup>
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">번호</th>
+                                                <th scope="col">제목</th>
+                                                <th scope="col">글쓴이</th>
+                                                <th scope="col">작성일</th>
+                                                <th scope="col">조회</th>
+                                                <th scope="col">추천</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+
+
+
+
+
+                                            <!-- 글 번호, 글 제목, 글쓴이, 작성일, 조회수, 추천수 -->
+                                            <tr class="ub-content ">
+                                                <td class="gall_num">글 번호</td>
+                                                <td class="gall_tit ub-word"><a href="글 주소" view-msg=""><em class="icon_img icon_pic"></em>글 제목</a></td>
+                                                <td class="gall_writer ub-writer" data-nick="닉네임" data-uid="아이디"data-ip="" data-loc="view_list">
+                                                    <span class='nickname' title='닉네임'><em>닉네임</em></span></td>
+                                                <td class="gall_date" title="2023-03-12 01:06:01">01:06</td>
+                                                <td class="gall_count">7</td>
+                                                <td class="gall_recommend">0</td>
+                                            </tr>
+
+                                            <tr class="ub-content ">
+                                                <td class="gall_num">글 번호</td>
+                                                <td class="gall_tit ub-word"><a href="글 주소" view-msg=""><em class="icon_img icon_pic"></em>글 제목</a></td>
+                                                <td class="gall_writer ub-writer" data-nick="닉네임" data-uid="아이디"data-ip="" data-loc="view_list">
+                                                    <span class='nickname' title='닉네임'><em>닉네임</em></span></td>
+                                                <td class="gall_date" title="2023-03-12 01:06:01">01:06</td>
+                                                <td class="gall_count">7</td>
+                                                <td class="gall_recommend">0</td>
+                                            </tr>
+
+                                            <!-- 열려 있는 글 -->
+                                            <tr class="ub-content crt">
+                                                <td class="gall_num"><span class="sp_img crt_icon"> </span></td>
+                                                <td class="gall_tit ub-word">
+                                                    <a href="글 주소" view-msg=""><em class="icon_img icon_txt"></em>글 제목</a>
+                                                    <a class="reply_numbox" href="글 주소"><span class="reply_num">[댓글 갯수]</span></a></td>
+                                                <td class="gall_writer ub-writer" data-nick="닉네임" data-uid=""data-ip="" data-loc="view_list">
+                                                    <span class='nickname' title='닉네임'><em>닉네임</em></span></td>
+                                                <td class="gall_date" title="2023-03-12 01:03:26">01:03</td>
+                                                <td class="gall_count">13</td>
+                                                <td class="gall_recommend">0</td>
+                                            </tr>
+                                            <!-- 개념글 -->
+                                            <tr class="ub-content ">
+                                                <td class="gall_num">글 번호</td>
+                                                <td class="gall_tit ub-word">
+                                                    <a href="글 주소" view-msg=""><em class="icon_img icon_recomimg"></em>글 제목</a>
+                                                    <a class="reply_numbox" href="글 주소"><span class="reply_num">[댓글 갯수]</span></a></td>
+                                                <td class="gall_writer ub-writer" data-nick="닉네임" data-uid="아이디"
+                                                    data-ip="" data-loc="view_list">
+                                                    <span class='nickname in' title='닉네임' ><em>닉네임</em></span></td>
+                                                <td class="gall_date" title="2023-03-12 00:13:18">00:13</td>
+                                                <td class="gall_count">228</td>
+                                                <td class="gall_recommend">6</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <!-- //게시판형 갤러리 리스트-->
+                                </div>
+                                <!-- //갤러리 리스트 -->
+                                <div class="list_bottom_btnbox">
+                                    <div class="fl">
+                                        <button type="button" class="list_bottom btn_blue"
+                                            onclick="goList('/board/lists/?id=food')">전체글</button>
+
+                                        <button type="button" class="list_bottom btn_white"
+                                            onclick="goList('/board/lists/?id=food&exception_mode=recommend')">개념글</button>
+
+
+                                    </div>
+                                    <div class="fr">
+                                        <button type="button" id="btn_write" class="btn_blue write"
+                                            onclick="goWrite('글 쓰기 게시판으로')">글쓰기</button>
+                                    </div>
+                                </div>
+                                <!-- 페이징 -->
+                                <div class="bottom_paging_wrap">
+                                    <div class="bottom_paging_box iconpaging">
+                                        <em>1</em><a href="/board/lists/?id=food&page=2">2</a><a
+                                            href="/board/lists/?id=food&page=3">3</a><a
+                                            href="/board/lists/?id=food&page=4">4</a><a
+                                            href="/board/lists/?id=food&page=5">5</a><a
+                                            href="/board/lists/?id=food&page=6">6</a><a
+                                            href="/board/lists/?id=food&page=7">7</a><a
+                                            href="/board/lists/?id=food&page=8">8</a><a
+                                            href="/board/lists/?id=food&page=9">9</a><a
+                                            href="/board/lists/?id=food&page=10">10</a><a
+                                            href="/board/lists/?id=food&page=11"
+                                            class="sp_pagingicon page_next">다음</a><a
+                                            href="/board/lists/?id=food&page=마지막 번호" class="sp_pagingicon page_end">끝</a>
+                                    </div>
+                                    <div class="pop_wrap type3 move_page_lyr" style="top:-121px;right:0;display:none">
+                                        <div class="pop_content schmove">
+                                            <div class="pop_head">
+                                                <h3>페이지 이동</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- //페이징 -->
+                                <!-- 갤러리 내 검색 -->
+                                <form name="frmSearch" method="post">
+                                    <fieldset>
+                                        <legend class="blind">갤러리 내부 검색</legend>
+                                        <div class="buttom_search_wrap clear">
+                                            <div class="select_box bottom_array fl">
+                                                <select id="search_type" name="search_type">
+                                                    <option value="search_subject_memo">제목+내용</option>
+                                                    <option value="search_subject">제목</option>
+                                                    <option value="search_memo">내용</option>
+                                                    <option value="search_name">글쓴이</option>
+                                                    <option value="search_comment">댓글</option>
+                                                </select>
+                                                <div class="select_area"
+                                                    onClick="showLayer(this, 'searchTypeLayer');return false;">
+                                                    <span id="search_type_txt">제목+내용</span><span class="blind">게시물
+                                                        정렬 옵션</span>
+                                                    <span class="inner"><em class="sp_img icon_option_more"></em></span>
+                                                </div>
+                                                <ul id="searchTypeLayer" class="option_box"
+                                                    style="left:-1px;top:36px;display:none">
+                                                    <li onClick="javascript:searchTypeSel('search_subject_memo')">
+                                                        제목+내용</li>
+                                                    <li onClick="javascript:searchTypeSel('search_subject')">제목</li>
+                                                    <li onClick="javascript:searchTypeSel('search_memo')">내용</li>
+                                                    <li onClick="javascript:searchTypeSel('search_name')">글쓴이</li>
+                                                    <li onClick="javascript:searchTypeSel('search_comment')">댓글</li>
+                                                </ul>
+                                            </div>
+                                            <div class="bottom_search fl clear">
+                                                <div class="inner_search">
+                                                    <input class="in_keyword" type="text" name="search_keyword"
+                                                        title="검색어 입력" value="">
+                                                </div>
+                                                <button class="sp_img bnt_search"
+                                                    onClick="search('');return false;"><span
+                                                        class="blind">검색</span></button>
+                                            </div>
+                                        </div>
+                                    </fieldset>
+                                </form>
+                                <!-- //갤러리 내 검색 -->
+                            </article>
+                        </section>
+                        <!-- //left_content -->
+                        <!-- right_content -->
+                        <section class="right_content">
+                            <h2 class="blind">오른쪽 컨텐츠 영역</h2>
+
+                            <!-- <script type="text/javascript" src="/_js/gallery_right_login.js?220811"></script>
+                            <script type="text/javascript" src="/_js/alarm_polling.js"></script> -->
+
+                            <div>
+                                <!-- 로그인 정보 -->
+                                <div id="login_box" class="login_box">
+                                    <div class="user_info newarea" data-alarmId="4663d3ebd19b81">
+                                        <a href="https://sign.dcinside.com/myinfo/modify" class="fl">
+                                            <strong class="nickname in" ><em>멍멍이</em></strong>님</a> <div class="logout_boxbtn fr"><button type="button"
+                                                onclick="location.href='로그아웃하고 해당 갤러리의 메인 페이지로'"
+                                                class="btn_inout logout">로그아웃</button>
+                                                <!-- 참고 원주소 https://sign.dcinside.com/logout?s_url=https%3A%2F%2Fgall.dcinside.com%2Fboard%2Fview%2F%3Fid%3Dfood%26no%3D2913753%26page%3D1 -->
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- //180726 추가 wrap_inner-->
+
+                            <!-- 기본 애널리틱스 -->
+                            <!-- <script type="text/javascript">
+
+                                var _gaq = _gaq || [];
+                                _gaq.push(['_setAccount', 'UA-5149721-11']);
+                                _gaq.push(['_setDomainName', 'dcinside.com']);
+                                _gaq.push(['_setAllowLinker', true]);
+                                _gaq.push(['_trackPageview']);
+
+                                (function () {
+                                    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                                    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                                    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+                                })();
+
+                            </script> -->
+                            <!-- //기본 애널리틱스 -->
+
+                            <!-- 추가 애널리틱스 -->
+                            <!-- <script type="text/javascript">
+
+                                var _gaq = _gaq || [];
+                                _gaq.push(['_setAccount', 'UA-5149721-39']);
+                                _gaq.push(['_setDomainName', 'dcinside.com']);
+                                _gaq.push(['_setAllowLinker', true]);
+                                _gaq.push(['_trackPageview']);
+
+                                (function () {
+                                    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                                    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                                    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+                                })();
+
+                            </script> -->
+                            <!--
+	<script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-5149721-64']);
+	  _gaq.push(['_setDomainName', 'dcinside.com']);
+	  _gaq.push(['_setAllowLinker', true]);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+	</script>
+
+-->
+                            <!-- 추가 애널리틱스 -->
+
+<!-- 
+
+
+                            <script type="text/javascript" src="//wcs.naver.net/wcslog.js"></script>
+                            <script type="text/javascript">
+                                if (!wcs_add) var wcs_add = {};
+                                wcs_add["wa"] = "f92eaecbc22aac";
+                                try { wcs_do(); } catch (err) { }
+                            </script> -->
+</body>
+
+</html>

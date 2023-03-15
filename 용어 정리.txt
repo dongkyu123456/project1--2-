@@ -1,0 +1,9 @@
+bog 게임 갤러리(board of game)
+bof 음식 갤러리(food)
+boms 음악 갤러리(music)
+bomv 영화 갤러리(movie)
+boday 오늘의 게시글 갤러리(day)
+
+링크 글 수정(링크 글 수정 좌표로)
+링크 글 삭제
+글 쓰기 게시판으로
